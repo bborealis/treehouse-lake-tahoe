@@ -22,5 +22,15 @@
 // Columns
 
 %columns {
-  width: 46.5%;  
+  width: 46.5%; 
+}
+
+// Clearfix
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }

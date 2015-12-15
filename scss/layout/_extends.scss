@@ -6,7 +6,7 @@
 
 // Top border
 %t-border {
-  border-top: 2px solid #dfe2e6;
+  border-top: 2px solid $color-border-light;
 }
 
 // Containers
@@ -22,7 +22,7 @@
 // Columns
 
 %columns {
-  width: 46.5%; 
+  width: 46.5%;
 }
 
 // Clearfix
